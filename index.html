@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <title>Portofolio Satria</title>
+<style>
+html { scroll-behavior: smooth; }
+body { margin: 0; font-family: "Yu Gothic", "Hiragino Kaku Gothic Pro", Meiryo, sans-serif; background: #1b1b1b; }
+header { background: #1b1b1b; color: white; padding: 15px 50px; display: flex; justify-content: space-between; align-items: center; position: fixed; top: 0; left: 0; width: 100%; z-index: 999; }
+.header-right { padding-right: 80px; }
+.header-left h1 { font-family: "Script MT Bold", "Great Vibes", cursive; font-size: 42px; font-weight: 700; letter-spacing: 2px; }
+.header-center nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+.header-center nav a:hover { text-decoration: underline; }
+.contact-btn { color: white; padding: 8px 18px; border: 2px solid #00c3ff; border-radius: 50px; text-decoration: none; font-weight: bold; }
+.contact-btn:hover { background: #00c3ff; }
+nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+nav a:hover { text-decoration: underline; }
+.container { max-width: 1100px; margin: auto; padding: 150px 30px 30px; }
+.profile { text-align: center; color: white; }
+.profile img { width: 250px; height: 250px; border-radius: 50%; object-fit: cover; }
+h2 { font-size: 40px; font-weight: 700; }
+h3 { background: linear-gradient(90deg, #0077ff, #0077ff,#00c3ff, #ffffff,#ffffff, #ffffff); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.abouts { text-align: center; color: white; margin-top: 150px; }
+.projects { text-align: center; color: white; margin-top: 150px; }
+.projects-container { display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; margin-top: 30px; }
+.project-card { background: #242424; padding: 15px; border-radius: 12px; text-align: center; color: white; position: relative; transition: 0.3s; }
+.project-card:hover { transform: translateY(-6px); background: #2a2a2a; }
+.project-card img { width: 100%; height: 180px; object-fit: cover; border-radius: 8px; }
+.project-card h4 { margin: 12px 0 8px; }
+.btn-project { background: none; border: 2px solid #00c3ff; padding: 7px 14px; border-radius: 40px; color: white; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 10px; transition: 0.3s; }
+.btn-project:hover { background: #910000; }
+.whatido { text-align: center; color: white; margin-top: 150px; }
+.whatido-box { display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; margin-top: 30px; }
+.whatido-box .service-card { background: #2a2a2a; border-radius: 12px; padding: 25px; transition: 0.3s; border: 1px solid #2a2a2a; }
+.whatido-box .service-card:hover { transform: translateY(-8px); border-color: #00c3ff; box-shadow: 0 0 15px rgba(72, 31, 255, 0.4); }
+.whatido-box h3 { margin-top: 0; color: #ffffff; }
+.btn-contact { color: white; padding: 10px 22px; border: 2px solid #00c3ff; border-radius: 50px; text-decoration: none; font-weight: bold; display: inline-block; transition: 0.3s; margin-top: 10px; }
+.btn-contact:hover { background: #00c3ff; }
+.btn-gmail { color: white; padding: 10px 22px; border: 2px solid #00c3ff; border-radius: 50px; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 8px; margin-top: 15px; transition: 0.3s; }
+.btn-gmail:hover { background: #00c3ff; }
+.btn-gmail img { width: 20px; height: 20px; }
+.gmail { text-align: center; color: white; margin-top: 150px; }
+footer { background: #1b1b1b; color: white; padding: 25px 80px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #444; }
+footer .social-icons a img { width: 25px; margin-left: 12px; filter: grayscale(100%); opacity: 0.7; transition: 0.3s; }
+footer .social-icons a img:hover { filter: grayscale(0%); opacity: 1; }
+@media (max-width: 300px) { * { font-size: calc(1em - 3px) !important; } }
+</style>
+</head>
+
+<body>
+<header>
+    <div class="header-left">
+        <h1>Satria</h1>
+    </div>
+
+    <div class="header-center">
+        <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#project">Project</a>
+        </nav>
+    </div>
+
+    <div class="header-right">
+        <a href="#" class="contact-btn">Contact</a>
+    </div>
+</header>
+
+     <section id="home"></section>
+    <div class="container">
+        <section class="profile">
+            <img src="gambar/WhatsApp Image 2025-12-03 at 00.14.16.jpeg" alt="Foto Profil">
+            <h2>Mochammad Satria Hendra Putra</h2>
+            <h3>UI/UX Designer</h3>
+            <p>Sebagai calon desainer UI/UX dengan keinginan kuat untuk menciptakan pengalaman digital yang intuitif dan berpusat pada pengguna, saya senang mengubah ide menjadi desain yang matang melalui wireframing, pembuatan prototipe, dan pemecahan masalah visual. 
+<br>
+Saya senang mengeksplorasi
+kebutuhan pengguna, merancang antarmuka yang bersih,
+dan terus belajar menciptakan produk yang bermakna dan
+benar-benar membantu pengguna</p>
+<a href="https://wa.me/+6281237207282" class="btn-contact">Contact Me</a>
+<p>081237207282</p>
+        </section>
+
+        <section id="about"></section>
+        <section class="abouts">
+ <h2>About Me</h2>
+            <h3>Get to know me</h3>
+            <p>Hai! Saya Mochammad Satria Hendra Putra, mahasiswa Teknik Informatika 
+semester 5 di Universitas PGRI Semarang dengan minat yang kuat pada Desain UI/UX. <br>
+Saya fokus menciptakan antarmuka yang bersih, terstruktur, dan berpusat pada pengguna menggunakan Figma. <br>
+Saya berpengalaman dalam mendesain alur pengguna, wireframe (fidelitas rendah–menengah), dan UI fidelitas tinggi. <br>
+Saya juga pernah menjabat sebagai Kepala Divisi UI/UX dalam proyek Website Perpustakaan, di mana saya bertanggung jawab atas perencanaan desain, pembuatan antarmuka, dan koordinasi dengan tim Analis & backend.
+</p>
+<p>Saya bersemangat untuk belajar, meningkatkan keterampilan desain, dan mewujudkan ide melalui desain yang bijaksana dan fungsional.</p>
+</section>
+
+<section class="whatido">
+<h2>What I do</h2>
+<h3>My Services</h3>
+           <div class="whatido-box">
+    <div class="service-card">
+        <h3>Desain UI Dasar</h3>
+        <p>Saya mengerjakan dasar-dasar UI Design
+        dengan merancang tampilan antarmuka
+        yang rapi, konsisten, dan mudah digunakan.</p>
+    </div>
+
+    <div class="service-card">
+        <h3>Desain UX Dasar</h3>
+        <p>Saya berfokus pada dasar-dasar UX Design,
+        seperti memahami kebutuhan pengguna,
+        membuat alur penggunaan, dan kenyamanan interaksi.</p>
+    </div>
+
+    <div class="service-card">
+        <h3>Wireframe Tingkat Rendah–Menengah</h3>
+        <p>Mencakup pembuatan struktur halaman mulai dari low-fidelity
+        hingga mid-fidelity untuk menentukan alur & hierarki informasi.</p>
+    </div>
+
+    <div class="service-card">
+        <h3>Dasar Prototipe Figma</h3>
+        <p>Menghubungkan frame tampilan untuk mensimulasikan alur
+        navigasi dan interaksi tombol sebelum tahap development.</p>
+    </div>
+
+    <div class="service-card">
+        <h3>Riset Pengguna</h3>
+        <p>Menganalisis kebutuhan dan perilaku pengguna sebagai dasar
+        pengambilan keputusan desain agar lebih efektif dan relevan.</p>
+    </div>
+
+    <div class="service-card">
+        <h3>Pengertian Desain Dasar</h3>
+        <p>Proses membangun elemen visual seperti warna, tipografi, dan layout
+        agar desain jelas, estetis, dan mudah dipahami.</p>
+    </div>
+</div>
+
+        </section>
+
+        <section id="project"></section>
+       <section class="projects">
+    <h2>Projects</h2>
+    <h3>Some of my Work</h3>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <img src="20250810_171734.jpg" alt="Project 1">
+            <h4>Desain UI/UX Streaming Musik</h4>
+            <a href="https://link-proyek1.com" class="btn-project">View →</a>
+        </div>
+
+        <div class="project-card">
+            <img src="20250810_171734.jpg" alt="Project 2">
+            <h4>Website Perpustakaan RPL</h4>
+            <a href="https://link-proyek2.com" class="btn-project">View →</a>
+        </div>
+
+        <div class="project-card">
+            <img src="20250810_171734.jpg" alt="Project 3">
+            <h4>UI/UX Prototipe E-Commerce</h4>
+            <a href="https://link-proyek3.com" class="btn-project">View →</a>
+        </div>
+
+    </div>
+</section>
+
+    </div>
+
+    <section class="gmail">
+   <a href="mailto:satriahendra117@gmail.com" class="btn-gmail">
+    <img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="Gmail">
+    satriahendra117@gmail.com
+</a></section><br>
+    <!-- FOOTER -->
+<footer>
+    <div class="footer-left">
+        © 2025 all right reserved
+    </div>
+
+    <div class="social-icons">
+        <a href="https://linkedin.com/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png">
+        </a>
+
+        <a href="https://github.com/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png">
+        </a>
+
+        <a href="https://facebook.com/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png">
+        </a>
+
+        <a href="https://instagram.com/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png">
+        </a>
+
+        <a href="https://twitter.com/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/3256/3256013.png">
+        </a>
+    </div>
+</footer>
+
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    });
+  });
+</script>
+
+
+</body>
+</html>
